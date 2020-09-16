@@ -1,0 +1,288 @@
+*{
+margin:0;
+}
+.App {
+  text-align: left;
+}
+nav
+{
+  display:flex;
+  height: 60px;
+}
+.footer_top ,.copy_rights
+{
+background-color: #37475A;
+color:#fff;
+text-align:center;
+padding: 1%;
+}
+.footer_contents
+{
+   background-color: #37475A;
+   padding-left:1%;
+   padding-right:1%;
+   color:#fff;
+    display: inline-flex;
+        width: 100%;
+    padding: 3% 23% 3% 18%;
+
+}
+footer ul
+{
+ list-style-type:none; 
+ display: inline-block;
+}
+.menu
+{
+  float: right;
+}
+.menu li 
+{
+  display:inline-block;
+  padding:3px;
+  color:#fff;
+  
+}
+.App-logo {
+  height: 40vmin;
+      margin-left: 5%;
+      width: 6%;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar
+{
+  padding:0%;
+  background-color:#131921;
+
+}
+.menu li{
+  font-weight: 700;
+}
+
+.menu{
+  list-style:none;
+      padding-top: 2.9px;
+  display: inline;
+}
+.footer_contents li {
+    padding-left: 1%;
+    padding-right: 7%;
+}
+.copy_rights{
+  
+  background-color: #131A22;
+}
+.contents
+{
+   margin: 1% 0% 1% 0%;
+}
+.footer_nav
+{
+  padding: 0;
+  color:#ddd;
+  font-size:14px;
+}.m {
+    font-size: 14px;
+    color: #eee;
+text-align: center;
+    font-weight: 400;
+}.search
+{
+         width:57%;
+          padding-top: 0.6%;
+          margin-left: 2%;
+}
+.search_button
+{
+    height: 39px;
+    margin-left: 0;
+    border-radius: 0px 6px 6px 0px;
+    background-color: #febd69;
+}
+.search_text{
+    width: 80%;
+    height: 37px;
+    padding: 2px;
+    margin-right: 0;
+}
+.list{
+      height: 37px;
+    width: 47px;
+    border-radius: 5px 0px 0px 6px;
+    padding: 3px;
+}
+.logo
+{ 
+  background-position: -10px -51px;
+  }.container{background-color:#ddd;}
+  product_cart{
+    background-color: #fff;
+  }
+  .row{
+    display:-webkit-inline-flex;
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+*
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+.product-card {
+    width: 380px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 50px auto;
+    background: #000;
+}
+
+.badge {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 50px;
+    background: #000;
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-details {
+    padding: 30px;
+}
+
+.product-catagory {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 18px;
+}
+
+.product-details h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+    color: #fbb72c;
+}
+
+.product-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #fbb72c;
+    font-weight: 600;
+}
+
+.product-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-links {
+    text-align: right;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #e1e1e1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.product-links a:hover {
+    color: #fbb72c;
+}
+.container .contents{
+  padding: 0px 8% 0px 8%;
+}
+header a 
+{
+  color:#fff;
+  text-decoration: none;  
+}
