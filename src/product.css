@@ -143,10 +143,12 @@ margin: 0px 4% 0px 6%;
 }
 .cart_button{
   background-color:#fbb72c;
-  
       border: none;
     padding: 9px;
     border-radius: 5px;
+}
+.cart_button:hover{
+  border-color:1px solid #fbb72c;
 }
 .product_image{
   align-self: center;
@@ -160,6 +162,10 @@ width:30%;
 {
   display: flex;
       color: brown;
+}
+.product:hover
+{
+box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 .product
 {

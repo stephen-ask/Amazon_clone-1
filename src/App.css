@@ -9,6 +9,10 @@ nav
   display:flex;
   height: 60px;
 }
+.footer_top a{
+  color:#fff;
+  text-decoration: none;
+}
 .footer_top ,.copy_rights
 {
 background-color: #37475A;
@@ -42,6 +46,10 @@ footer ul
   padding:3px;
   color:#fff;
   
+}
+.menu > li:hover 
+{
+border:1px solid #fff;
 }
 .App-logo {
   height: 40vmin;
@@ -85,6 +93,9 @@ footer ul
   background-color:#131921;
 
 }
+ul.menu > li {
+    padding: 10px;
+}
 .menu li{
   font-weight: 700;
 }
@@ -112,15 +123,16 @@ footer ul
   color:#ddd;
   font-size:14px;
 }.m {
-    font-size: 14px;
+    font-size: 12px;
     color: #eee;
-text-align: center;
+text-align: left;
     font-weight: 400;
 }.search
 {
          width:57%;
           padding-top: 0.6%;
           margin-left: 2%;
+          display: flex;
 }
 .search_button
 {
@@ -129,10 +141,13 @@ text-align: center;
     border-radius: 0px 6px 6px 0px;
     background-color: #febd69;
 }
+.search_text:active {
+border:none;   
+}
 .search_text{
-    width: 80%;
+    width: 85%;
     height: 37px;
-    padding: 2px;
+    padding: 10px;
     margin-right: 0;
 }
 .list{
@@ -285,4 +300,10 @@ header a
 {
   color:#fff;
   text-decoration: none;  
+  font-size: 14px;
+}
+.header__2{
+  position: sticky;
+  top:0;
+  z-index:100;
 }
